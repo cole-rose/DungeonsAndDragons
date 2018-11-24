@@ -7,7 +7,7 @@ public class Game{
         System.out.println("Creating a new wizard class called wiz");
         Wizard wiz = new Wizard("wiz", 3);
         System.out.println(wiz.toString());
-        System.out.println("wiz attacking lil bitch ass fighty");
+        System.out.println("wiz attacking fighty");
         wiz.attack(fighty);
         System.out.println("fighty has " + fighty.getHealth() + " health" + "\n");
         wiz.attack(fighty);
