@@ -12,7 +12,6 @@ public abstract class Character {
     public static final int initialHealth = 5;
 
     public Character(String name, int seed) {
-        //implement this constructor using constructor delegation
         this.name = name;
         setLevel(initialLevel);
         setHealth(initialHealth);
@@ -41,67 +40,54 @@ public abstract class Character {
     }
 
     public String getName() {
-        //implement this method
         return this.name;
     }
 
     public int getLevel() {
-        //implement this method
         return this.level;
     }
 
     public void setLevel(int level) {
-        //implement this method
         this.level = level;
     }
 
     public int getStrength() {
-        //implement this method
         return this.strength;
     }
 
     public void setStrength(int strength) {
-        //implement this method
         this.strength = strength;
     }
 
     public int getDexterity() {
-        //implement this method
         return this.dexterity;
     }
 
     public void setDexterity(int dexterity) {
-        //implement this method
         this.dexterity = dexterity;
     }
 
     public int getIntelligence() {
-        //implement this method
         return this.intelligence;
     }
 
     public void setIntelligence(int intelligence) {
-        //implement this method
         this.intelligence = intelligence;
     }
 
     public int getWisdom() {
-        //implement this method
         return this.wisdom;
     }
 
     public void setWisdom(int wisdom) {
-        //implement this method
         this.wisdom = wisdom;
     }
 
     public int getHealth() {
-        //implement this method
         return this.health;
     }
 
     public void setHealth(int health) {
-        //implement this method
         if (health < 0) {
             this.isDead = true;
             this.health = 0;
@@ -114,12 +100,10 @@ public abstract class Character {
     }
 
     public boolean getIsDead() {
-        //implement this method
         return this.isDead;
     }
 
     public void setIsDead(boolean isDead) {
-        //implement this method
         this.isDead = isDead;
     }
 
